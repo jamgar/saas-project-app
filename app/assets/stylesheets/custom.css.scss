@@ -15,6 +15,10 @@
   }
 }
 
+.navbar {
+  background-color: #34495e;
+}
+
 .nav.navbar-right {
   padding-bottom: 10px;
   padding-top: 5px;
@@ -121,4 +125,13 @@
 
 .no-right-padding {
   padding-right: 0 !important;
+}
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  a.main-link:hover {
+    background: none;
+  }
 }
